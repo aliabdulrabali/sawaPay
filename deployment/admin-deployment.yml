@@ -1,0 +1,100 @@
+name: SawaPay Admin Dashboard CI/CD
+
+on:
+  push:
+    branches: [ main, development ]
+    paths:
+      - 'admin/**'
+  pull_request:
+    branches: [ main, development ]
+    paths:
+      - 'admin/**'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: Install dependencies
+      working-directory: ./admin
+      run: npm ci
+    
+    - name: Run linting
+      working-directory: ./admin
+      run: npm run lint
+    
+    - name: Run tests
+      working-directory: ./admin
+      run: npm test
+    
+    - name: Build
+      working-directory: ./admin
+      run: npm run build
+    
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: admin-build-files
+        path: admin/build/
+
+  deploy-to-firebase-staging:
+    needs: build-and-test
+    if: github.ref == 'refs/heads/development'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Download build artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: admin-build-files
+        path: admin/build
+    
+    - name: Deploy to Firebase Staging
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STAGING }}'
+        projectId: sawapay-999ac
+        channelId: admin-staging
+        target: admin
+      env:
+        FIREBASE_CLI_PREVIEWS: hostingchannels
+
+  deploy-to-firebase-production:
+    needs: build-and-test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Download build artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: admin-build-files
+        path: admin/build
+    
+    - name: Deploy to Firebase Production
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRODUCTION }}'
+        projectId: sawapay-999ac
+        channelId: live
+        target: admin
+      env:
+        FIREBASE_CLI_PREVIEWS: hostingchannels

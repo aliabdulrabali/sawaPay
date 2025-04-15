@@ -1,0 +1,75 @@
+Here’s the Project Board Card version of the request, formatted for GitHub Projects, Trello, or any Kanban-style board:
+
+⸻
+
+🛠️ Task: Build SawaPay MVP (Web + Mobile + Admin)
+
+Description:
+Develop the MVP for SawaPay — a modern, PayPal-style digital payment app for both mobile and web platforms, including a full-featured admin dashboard.
+
+⸻
+
+✅ Objectives:
+	•	Firebase-powered backend (Auth, Firestore, Functions, Storage)
+	•	Web frontend using React + TailwindCSS
+	•	Mobile frontend using React Native or Flutter
+	•	Admin dashboard with full user/transaction management
+	•	PayPal-inspired UI/UX (clean, minimal, trustworthy)
+
+⸻
+
+📱 User Features (Web + Mobile):
+	•	Register/Login (Email, Google, Apple, Phone)
+	•	KYC Upload (ID, Selfie, Status Tracking)
+	•	Wallet Management (Balance, Add, Withdraw)
+	•	P2P Transfer (Send & Request Money)
+	•	Transaction History with Filters
+	•	In-App Notifications & Push Alerts
+	•	Profile & Security Settings (2FA, Change Password)
+	•	Support Contact Page
+
+⸻
+
+🧑‍💼 Admin Dashboard Features:
+	•	Manage Users (View, Verify, Disable)
+	•	KYC Approval Panel
+	•	Wallet Overview & Manual Adjustments
+	•	View Transactions (Search, Filter, Export)
+	•	Analytics Dashboard (Growth, Revenue, Volume)
+	•	CMS (Terms, FAQ, About)
+	•	Manage Support Requests
+
+⸻
+
+⚙️ Tech Stack:
+
+Layer	Tech
+Backend	Firebase (Auth, Firestore, Functions, Storage)
+Web Frontend	React + TailwindCSS
+Mobile	React Native or Flutter
+Admin Panel	React + TailwindCSS + Firebase
+Hosting	Firebase Hosting + CI/CD
+
+
+
+⸻
+
+📦 Deliverables:
+	•	✅ Mobile App (iOS + Android builds)
+	•	✅ Web App (Responsive)
+	•	✅ Admin Dashboard
+	•	✅ Source Code (GitHub Repo)
+	•	✅ Firebase Project Setup
+	•	✅ CI/CD Deployment Setup
+	•	✅ Technical Documentation
+
+⸻
+
+📌 Notes:
+	•	Use scalable code and clean architecture.
+	•	UI should follow PayPal-style simplicity and brand trust.
+	•	Prepare for future features (BNPL, Merchant Accounts, Remittance).
+
+⸻
+
+Would you like a Markdown version of this to paste directly into a GitHub Project or Task board?

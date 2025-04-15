@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352052602247",
+    "project_id": "sawapay-999ac",
+    "storage_bucket": "sawapay-999ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352052602247:android:a7d5f5fe85c7d623151f22",
+        "android_client_info": {
+          "package_name": "com.sawapay.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjs_XyanR0cDYL0cGCdtLWow5Wt9gfgUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

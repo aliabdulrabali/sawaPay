@@ -1,0 +1,57 @@
+2025-04-15 12:03:12.428 [info] 
+
+
+
+
+2025-04-15 12:03:12.451 [info] Extension host agent started.
+2025-04-15 12:03:12.552 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-15 12:03:12.580 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-15 12:03:20.987 [info] [10.92.195.1][fc72adaa][ManagementConnection] New connection established.
+2025-04-15 12:03:25.063 [info] [10.92.195.1][f7c49e3a][ExtensionHostConnection] New connection established.
+2025-04-15 12:03:25.572 [info] [10.92.195.1][f7c49e3a][ExtensionHostConnection] <2420> Launched Extension Host Process.
+2025-04-15 12:27:54.460 [info] [10.92.195.1][b5ae91ff][ManagementConnection] New connection established.
+2025-04-15 12:27:57.146 [info] [10.92.195.1][86878b4a][ExtensionHostConnection] New connection established.
+2025-04-15 12:27:57.154 [info] [10.92.195.1][86878b4a][ExtensionHostConnection] <13153> Launched Extension Host Process.
+2025-04-15 12:27:58.513 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2025-04-15 12:27:58.513 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2025-04-15 12:27:58.514 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2025-04-15 12:27:58.515 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2025-04-15 12:27:58.515 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2025-04-15 12:27:58.516 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-04-15 12:27:58.516 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2025-04-15 12:30:06.024 [info] [10.92.195.1][fc72adaa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-15 12:30:06.154 [info] [10.92.195.1][f7c49e3a][ExtensionHostConnection] <2420> Extension Host Process exited with code: 0, signal: null.
+2025-04-15 12:31:38.085 [info] [10.1.116.1][b1963a68][ManagementConnection] New connection established.
+2025-04-15 12:31:40.581 [info] [10.1.116.1][c27bfbb0][ExtensionHostConnection] New connection established.
+2025-04-15 12:31:40.593 [info] [10.1.116.1][c27bfbb0][ExtensionHostConnection] <14681> Launched Extension Host Process.
+2025-04-15 12:35:03.404 [info] [10.1.116.1][b1963a68][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-15 12:35:03.497 [info] [10.1.116.1][c27bfbb0][ExtensionHostConnection] <14681> Extension Host Process exited with code: 0, signal: null.
+2025-04-15 12:35:05.686 [info] [10.1.116.1][f2a693ad][ManagementConnection] New connection established.
+2025-04-15 12:35:08.207 [info] [10.1.116.1][d8a84d1c][ExtensionHostConnection] New connection established.
+2025-04-15 12:35:08.217 [info] [10.1.116.1][d8a84d1c][ExtensionHostConnection] <16405> Launched Extension Host Process.
+2025-04-15 12:35:15.035 [info] [10.1.116.1][d8a84d1c][ExtensionHostConnection] The client has reconnected.
+2025-04-15 12:35:15.606 [info] [10.1.116.1][f2a693ad][ManagementConnection] The client has reconnected.
+2025-04-15 12:37:06.681 [info] [10.1.116.1][f2a693ad][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-15 12:47:12.517 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-04-15 12:47:12.521 [info] [10.92.195.1][b5ae91ff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-15 13:18:14.709 [info] [10.92.195.1][b5ae91ff][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-15 13:18:14.711 [info] [10.1.116.1][f2a693ad][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-15 13:18:14.716 [info] [10.179.252.1][4f78d98d][ManagementConnection] New connection established.
+2025-04-15 13:18:20.206 [info] [10.179.252.1][c4eed143][ExtensionHostConnection] New connection established.
+2025-04-15 13:18:20.238 [info] [10.179.252.1][c4eed143][ExtensionHostConnection] <30402> Launched Extension Host Process.
+2025-04-15 13:23:14.894 [info] [10.92.195.1][b5ae91ff][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-04-15 13:23:14.897 [info] [10.1.116.1][f2a693ad][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-04-15 13:23:15.184 [info] [10.1.116.1][d8a84d1c][ExtensionHostConnection] <16405> Extension Host Process exited with code: 0, signal: null.
+2025-04-15 13:23:15.211 [info] [10.92.195.1][86878b4a][ExtensionHostConnection] <13153> Extension Host Process exited with code: 0, signal: null.
+2025-04-15 13:32:18.531 [info] [10.179.252.1][c4eed143][ExtensionHostConnection] The client has reconnected.
+2025-04-15 13:35:54.209 [info] [10.179.252.1][4f78d98d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-15 13:35:54.484 [info] [10.179.252.1][c4eed143][ExtensionHostConnection] <30402> Extension Host Process exited with code: 0, signal: null.
+2025-04-15 13:41:06.854 [info] [10.179.252.1][adb75955][ManagementConnection] New connection established.
+2025-04-15 13:41:09.345 [info] [10.179.252.1][1a4b3fb0][ExtensionHostConnection] New connection established.
+2025-04-15 13:41:09.355 [info] [10.179.252.1][1a4b3fb0][ExtensionHostConnection] <41207> Launched Extension Host Process.

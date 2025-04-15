@@ -1,0 +1,30 @@
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 13
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 14
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 15
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 16
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 17
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 18
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 19
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 20
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 21
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 22
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 23
+[12:27:58] RequestStore#acceptReply was called without receiving a matching request 24
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[12:47:12] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js

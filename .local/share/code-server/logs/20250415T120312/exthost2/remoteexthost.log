@@ -1,0 +1,114 @@
+2025-04-15 08:27:58.353 [info] Extension host with pid 13153 started
+2025-04-15 08:27:58.354 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-2094d283/vscode.lock'
+2025-04-15 08:27:58.360 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-2094d283/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-15 08:27:58.371 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-2094d283/vscode.lock': The lock does not look stale, elapsed: 160 ms, giving up.
+2025-04-15 08:27:58.382 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-2094d283-1/vscode.lock': Lock acquired.
+2025-04-15 08:27:58.702 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-15 08:27:58.704 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-15 08:27:58.704 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-15 08:27:58.705 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-15 08:27:58.705 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-15 08:27:58.706 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-15 08:27:59.707 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-15 08:28:00.033 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-04-15 08:28:00.063 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-15 08:28:00.064 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-15 08:28:00.521 [info] Eager extensions activated
+2025-04-15 08:28:00.521 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-15 08:28:00.522 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-15 08:28:00.986 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-15 08:47:16.614 [error] Error: read ETIMEDOUT
+	at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-04-15 09:23:14.940 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-04-15 09:23:14.943 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-2094d283-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-15 09:23:15.060 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Vc (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:116891
+	at Array.forEach (<anonymous>)
+	at i4.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:116831)
+	at bV.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:10084)
+	at oD.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at ts (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:5702)
+	at s6.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:2614)
+	at s6.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75531)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) 
+2025-04-15 09:23:15.064 [error] Canceled: Canceled
+	at new _R (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:115439)
+	at i4.U (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:120050)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117544)
+	at vw.g (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+	at vw.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at r.registerCommand.description (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+	at vw.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+	at vw.g (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+	at vw.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at Object.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+	at Rh.L [as value] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:511809)
+	at D.B (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:534449)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:540767
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:540753)
+	at iv.<anonymous> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at iv.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at iv.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:514293)
+	at iv.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at gi (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at bV.eb (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+	at Array.map (<anonymous>)
+	at bV.$ (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+	at bV.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+	at oD.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at ts (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:5702)
+	at s6.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:2614)
+	at s6.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75531)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-04-15 09:23:15.066 [error] Canceled: Canceled
+	at new _R (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:115439)
+	at i4.U (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:120050)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117544)
+	at vw.g (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+	at vw.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at r.registerCommand.description (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+	at vw.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+	at vw.g (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+	at vw.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at Object.executeCommand (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:217805)
+	at /usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:218764
+	at Rh.value (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:631688)
+	at D.B (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:534449)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:540767
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:540753)
+	at iv.<anonymous> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at iv.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at iv.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:514293)
+	at iv.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at gi (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at bV.eb (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+	at Array.map (<anonymous>)
+	at bV.$ (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+	at bV.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+	at oD.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at ts (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:5702)
+	at s6.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:197:2614)
+	at s6.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75531)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-04-15 09:23:15.195 [info] Extension host with pid 13153 exiting with code 0
